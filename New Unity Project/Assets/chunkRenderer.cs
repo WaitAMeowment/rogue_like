@@ -25,7 +25,7 @@ public class chunkRenderer : MonoBehaviour
     {
         frame += 1;
         
-        //level.SetTile(new Vector3Int((3 * frame)%35 - (2*frame)%44, (5 * frame)%37 - (2*frame)%44, 0), wall);
+        //level.SetTile(new Vector3Int((3 * frame)%35 - (2*frame)%44, (5 * frame)%37 - (2*frame)%44, frame % 30 - 15), wall);
 
     }
 }
